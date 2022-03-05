@@ -1,0 +1,83 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  min-height: 100vh;
+}
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.importExportSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 5px;
+}
+
+.importSection input {
+  padding: 5px 12px;
+  background: rgb(232, 232, 232);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #000;
+}
+
+.importBtn {
+  background: #4ba5fd;
+  padding: 8px 12px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.exportBtn {
+  padding: 8px 12px;
+  color: #fff;
+  background: #456fac;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.checkBox {
+  transform: scale(1.1);
+}
+
+.tableWrapper {
+  background: #f3f3f3;
+  width: 70%;
+  margin: 10px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+tbody > tr > td {
+  text-align: center;
+  padding: 8px;
+}
+
+.tableWrapper thead th {
+  text-align: center;
+  border-bottom: 1px solid #999;
+  padding: 8px;
+}
+
+.tableData {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.tableData:nth-child(odd) {
+  background-color: #dddddd;
+}

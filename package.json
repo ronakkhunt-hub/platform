@@ -1,0 +1,20 @@
+{
+  "name": "platform-test-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronakkhunt-hub/platform-test-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronakkhunt-hub/platform-test-main/issues"
+  },
+  "homepage": "https://github.com/ronakkhunt-hub/platform-test-main#readme"
+}

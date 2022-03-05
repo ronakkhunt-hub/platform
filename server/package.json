@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:bctcreativelabs/technical-tests/platform-test.git",
+  "author": "BCT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "json-as-xlsx": "^2.3.10",
+    "mongoose": "^6.2.4",
+    "multer": "^1.4.3",
+    "xlsx": "^0.18.2"
+  },
+  "engines": {
+    "node": ">=12.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
